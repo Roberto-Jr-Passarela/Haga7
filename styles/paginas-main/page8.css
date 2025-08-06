@@ -1,0 +1,20 @@
+@import url(/styles/config.css);
+
+#sc8 {
+    background-image: linear-gradient(to top, var(--cor6), var(--cor7));
+    flex-direction: column;
+}
+#sc8 > h2 {
+    max-width: 900px;
+}
+/* Botão 2 */
+#botao-sc8 {
+  padding: 30px 60px;
+  border-radius: 70px 0px;
+  font-size: 20px;
+}
+
+
+
+
+

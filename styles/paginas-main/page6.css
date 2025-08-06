@@ -1,0 +1,29 @@
+@import url(/styles/config.css);
+
+#sc6 {
+    flex-direction: column;
+}
+#txt-sc6 {
+    text-align: center;
+}
+#baners-sc6  {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#baners-sc6 > div {
+    background-color: var(--cor7);
+    width: 200px;
+    height: 150px;
+    border-radius: 50px;
+    text-align: center;
+    border: 2px solid var(--cor3);
+    border-top: 5px solid var(--cor3);
+    padding: 10px;
+}
+.baner-sc6{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}

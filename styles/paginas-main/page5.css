@@ -1,0 +1,33 @@
+@import url(/styles/config.css);
+
+#sc5 {
+    flex-direction: column;
+}
+#txt-sc5 > p {
+    margin: auto;
+    width: 85%;
+    text-align: center;
+    max-width: 600px;
+}
+#baners-sc5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#baners-sc5 > h3{
+    background-color: var(--cor7);
+    border-radius: 15px 0px 15px 0px;
+    border: 1px solid var(--cor3);
+    border-top: 4px solid var(--cor3);
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 320px){
+    #baners-sc5 > h3{
+        width: 175px;
+    }
+}
