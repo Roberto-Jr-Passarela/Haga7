@@ -1,2 +1,2 @@
 # Haga7
-Recriação do site da HAGA7
+Finalizado - Recriação do site da HAGA7
